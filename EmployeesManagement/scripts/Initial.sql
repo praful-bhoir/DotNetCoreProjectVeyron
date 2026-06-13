@@ -78,3 +78,7 @@ BEGIN
     ALTER TABLE [dbo].[Employees] CHECK CONSTRAINT [FK_Employees_Departments]
 END;
 GO
+
+
+SELECT * FROM dbo.Departments;
+SELECT * FROM dbo.Employees;
